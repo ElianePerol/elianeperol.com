@@ -235,6 +235,10 @@ a:hover {
   background: #eaeaea !important;
 }
 
+.bg-light {
+  background: #777777;
+}
+
 .text-primary {
   color: #41228e !important;
 }
@@ -595,7 +599,7 @@ textarea.form-control {
 .hover-wrapper:hover img {
   transform: scale(1);
 }
-.hover-wrapper:hover .hover-overlay {
+.hover-wraper:hover .hover-overlay {
   opacity: 1;
   visibility: visible;
 }
@@ -609,7 +613,7 @@ textarea.form-control {
   left: 0;
   background: rgba(0, 0, 0, 0.3);
   opacity: 0;
-  visibility: hidden;
+  /* visibility: hidden; */
   transition: 0.3s ease;
 }
 
